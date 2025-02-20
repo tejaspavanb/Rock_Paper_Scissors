@@ -1,0 +1,33 @@
+.btn{
+    background-color: hsl(221, 100%, 27%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 2.5rem;
+    border-radius: 150px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+#user-choice, #computer-choice{
+    font-size: 1.5rem;
+    color:hsl(310, 100%, 12%);
+}
+#result{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
